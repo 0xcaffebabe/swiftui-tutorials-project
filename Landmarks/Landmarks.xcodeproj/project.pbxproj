@@ -38,6 +38,10 @@
 		0FA3D327280301F000110B01 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA3D323280301F000110B01 /* HikeGraph.swift */; };
 		0FA3D328280301F000110B01 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA3D324280301F000110B01 /* HikeDetail.swift */; };
 		0FA3D329280301F000110B01 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA3D325280301F000110B01 /* HikeView.swift */; };
+		0FC89CA02806B67400A4B5FA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC89C9F2806B67300A4B5FA /* PageViewController.swift */; };
+		0FC89CA22806BDE800A4B5FA /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC89CA12806BDE800A4B5FA /* FeatureCard.swift */; };
+		0FC89CA52806C06500A4B5FA /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC89CA42806C06500A4B5FA /* PageView.swift */; };
+		0FC89CA72806C52000A4B5FA /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC89CA62806C52000A4B5FA /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +77,10 @@
 		0FA3D323280301F000110B01 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		0FA3D324280301F000110B01 /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		0FA3D325280301F000110B01 /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		0FC89C9F2806B67300A4B5FA /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		0FC89CA12806BDE800A4B5FA /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		0FC89CA42806C06500A4B5FA /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		0FC89CA62806C52000A4B5FA /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +153,10 @@
 				0F525E272804237F00023D3A /* CategoryHome.swift */,
 				0F525E2A28042E4500023D3A /* CategoryRow.swift */,
 				0F525E2C28042F9B00023D3A /* CategoryItem.swift */,
+				0FC89C9F2806B67300A4B5FA /* PageViewController.swift */,
+				0FC89CA12806BDE800A4B5FA /* FeatureCard.swift */,
+				0FC89CA42806C06500A4B5FA /* PageView.swift */,
+				0FC89CA62806C52000A4B5FA /* PageControl.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,6 +298,7 @@
 			files = (
 				0FA3D3202803003900110B01 /* Hike.swift in Sources */,
 				0FA3D3112802F66800110B01 /* HexagonParameters.swift in Sources */,
+				0FC89CA22806BDE800A4B5FA /* FeatureCard.swift in Sources */,
 				0F908154280027D20078F504 /* ContentView.swift in Sources */,
 				0F01D89428059AB3001402F0 /* ProfileHost.swift in Sources */,
 				0F01D892280599DC001402F0 /* Profile.swift in Sources */,
@@ -299,6 +312,7 @@
 				0F90817928017E9D0078F504 /* LandmarkList.swift in Sources */,
 				0FA3D31B2802FD4300110B01 /* Badge.swift in Sources */,
 				0FA3D3132802F6F600110B01 /* BadgeBackground.swift in Sources */,
+				0FC89CA02806B67400A4B5FA /* PageViewController.swift in Sources */,
 				0F90817B280181470078F504 /* LandmarkDetail.swift in Sources */,
 				0F01D89928059C2F001402F0 /* HikeBadge.swift in Sources */,
 				0FA3D328280301F000110B01 /* HikeDetail.swift in Sources */,
@@ -307,7 +321,9 @@
 				0FA3D3172802FCB800110B01 /* RotatedBadgeSymbol.swift in Sources */,
 				0F908152280027D20078F504 /* LandmarksApp.swift in Sources */,
 				0F90816E28017B4F0078F504 /* Landmark.swift in Sources */,
+				0FC89CA52806C06500A4B5FA /* PageView.swift in Sources */,
 				0F01D89728059B15001402F0 /* ProfileSummary.swift in Sources */,
+				0FC89CA72806C52000A4B5FA /* PageControl.swift in Sources */,
 				0F525E2D28042F9B00023D3A /* CategoryItem.swift in Sources */,
 				0FA3D327280301F000110B01 /* HikeGraph.swift in Sources */,
 				0F01D89B2805A126001402F0 /* ProfileEditor.swift in Sources */,
